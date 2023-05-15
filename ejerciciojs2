@@ -1,0 +1,15 @@
+const Minombre="Juan Gabriel";
+const EresDesarrollador = false
+const fechaNac=new Date(2000,0,3)
+const LibroFav={
+    nombre: "Mi planta naranja lima",
+    fechaDePublicacion: new Date(2005,2,4),
+    editorial:"BanderaBlanca",
+    url:"https:www.pecero.com/miplantaNaranjaLima"
+}
+
+console.log(EresDesarrollador);
+console.log(fechaNac);
+console.log(LibroFav.nombre);
+console.log(LibroFav.editorial);
+console.log(LibroFav.url);
